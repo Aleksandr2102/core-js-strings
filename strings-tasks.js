@@ -20,6 +20,7 @@
  *   getStringLength(undefined) => 0
  */
 function getStringLength(value) {
+  if (value === null || value === undefined) return 0;
   return value.length;
 }
 
@@ -38,11 +39,8 @@ function getStringLength(value) {
  *   isString(new String('test')) => true
  */
 function isString(value) {
-  if(typeof (value) === string) {
-    return true;
-  } else {
-    return false;
-  }
+  if () return true;
+  return false;
 }
 
 /**
